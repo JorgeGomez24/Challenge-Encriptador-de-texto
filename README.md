@@ -6,3 +6,5 @@
 - Generación 7
 
 - Estado del Proyecto: Terminado
+
+- Para Ejecutar el Programa debes Abrir el index.html con un explorador como Chrome, Mozilla, etc.
