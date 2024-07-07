@@ -7,4 +7,4 @@
 
 - Estado del Proyecto: Terminado
 
-- Para Ejecutar el Programa debes Abrir el index.html con un explorador como Chrome, Mozilla, etc.
+- Para Ejecutar el Programa debes Abrir el index.html con el explorador Mozilla, para que la visualización sea correcta.
