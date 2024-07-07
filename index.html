@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador de texto</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>    
+    <header class="header">
+        <img class="presentacion__Logo" src="./img/Logo.png" alt="Logo de Alura Latam">        
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Encriptador de texto</a>
+            <a class="header__menu__link" href="about.html">Sobre mí</a>
+        </nav>
+    </header>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">
+                Challenge 
+                <strong class="titulo-destaque">Encriptador de texto
+                </strong></h1>
+                <p class="presentacion__contenido__texto">¡Hola! Este es el Challenge de Encriptador de texto 
+                    que nos permite realizar mensajes y enviarlos
+                    con la total seguridad ya que es encriptado y por lo cual protegido y también puedes
+                    desencriptarlo para poder leerlo. ¿quieres practicar e intentarlo?             
+                <a></a>
+                <a></a>
+    <main class="mainIzq">
+        <section class="form box">
+          <form id="formulario">
+            <label class="leftSup">Ingresa aquí el texto que desees encriptar o desencriptar.</label>
+            <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="15" cols="50"></textarea>   
+            <div class="button-container">            
+                <label class="left">! Solo letras minúsculas y sin acentos</label> 
+                <input class="btn-encriptar" type="submit" value="Encriptar!" id="btn-encriptar">              
+                <input class="btn-desencriptar" type="submit" value="Desencriptar!" id="btn-desencriptar">                    
+                <a></a>
+                <a></a>        
+            </div>
+        </section>
+    </main>        
+    <main class="mainDer">
+        <section class="msg box">
+            <div class="right">                
+            </div>        
+            <label class="mensaje-texto" for="mensaje-texto">Mensaje Encriptado o Desencriptado:</label>
+            <textarea class="text-output" name="mensaje-texto" id="mensaje-texto" rows="15" cols="50"></textarea>
+            <label class="right2">Ningún mensaje fue encontrado</label>               
+            <input class="btnCopiar" type="submit" value="Copiar Texto" id="btn-copy">
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+        
+    <footer class="footer">
+        <p>Desarrollado por Jorge Ernesto Gómez Alvarez para Alura Latam</p>
+    </footer>
+</body>
+</html>
